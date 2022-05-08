@@ -11,7 +11,7 @@
     border: 3.5px solid #74869e !important;
     background-color: #74869e !important;
     position: fixed;
-    border-radius: 5px;
+    border-radius: 5px;  
     z-index: 101;
     pointer-events: none;
     transition: border-color 0.5s;
