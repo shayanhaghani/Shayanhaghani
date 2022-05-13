@@ -1024,7 +1024,7 @@ form .check-block label{
 	width: 30px;
 	height: 30px;
 	line-height: 30px;
-	background: url('../images/resource/icons/home.png') center center no-repeat;
+	background: url('./images/home.png') center center no-repeat;
 	background-size: auto 22px;
 	opacity: 0.30;
 	-moz-transition:all 0.3s ease;
@@ -1039,7 +1039,7 @@ form .check-block label{
 }
 
 .main-nav .navigation li.home a:before{
-	background-image: url('../images/resource/icons/home.png');
+	background-image: url('./images/home.png');
 	background-size: auto 22px;
 }
 
@@ -1049,7 +1049,7 @@ form .check-block label{
 }
 
 .main-nav .navigation li.resume a:before{
-	background-image: url('../images/resource/icons/cv-5.png');
+	background-image: url('./images/cv-5.png');
 	background-size: auto 22px;
 }
 
@@ -1059,7 +1059,7 @@ form .check-block label{
 }
 
 .main-nav .navigation li.work a:before{
-	background-image: url('../images/resource/icons/work-2.png');
+	background-image: url('./images/work-2.png');
 	background-size: auto 22px;
 }
 
@@ -1069,7 +1069,7 @@ form .check-block label{
 }
 
 .main-nav .navigation li.stories a:before{
-	background-image: url('../images/resource/icons/comment-1.png');
+	background-image: url('./images/comment-1.png');
 	background-size: auto 22px;
 	top: 26px;
 }
@@ -1081,7 +1081,7 @@ form .check-block label{
 }
 
 .main-nav .navigation li.contact a:before{
-	background-image: url('../images/resource/icons/email-1.png');
+	background-image: url('./images/email-1.png');
 	background-size: auto 22px;
 }
 
@@ -1093,7 +1093,7 @@ form .check-block label{
 .main-nav .navigation li:hover > a:before,
 .main-nav .navigation li.current > a:before{
 	opacity: 1;
-    content: "\e069";
+    
     
 }
 
@@ -3137,7 +3137,8 @@ form .check-block label{
 }
 
 .resume-content .interest-block .icon-box .icon img{
-	max-height: 32px;
+	max-height: 40px;
+    margin-top: 12px;
 }
 
 .resume-content .interest-block .icon-box .hvr-icon{
@@ -3376,3 +3377,25 @@ body {
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
 }
+
+
+.circular-chart {
+	display: block;
+    margin: 0px auto;
+    max-width: 100%;
+    max-height: 250px;
+  }
+  
+  .circle {
+	stroke: #2ab3ac;
+	fill: none;
+	stroke-width: 1.2;
+	stroke-linecap: round;
+	animation: progress 3.5s ease-out forwards;
+  }
+  
+  @keyframes progress {
+	0% {
+	  stroke-dasharray: 0 100;
+	}
+  }

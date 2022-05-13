@@ -1,12 +1,13 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Graham Walker - Home</title>
+        <title>Shayan Haghani - Front-end Developer</title>
         <!-- Stylesheets -->
         <link href="./bootstrap.css" rel="stylesheet">
         <link href="./styles.css" rel="stylesheet">
         <link href="./pointer.css" rel="stylesheet">
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/c033266199.js" crossorigin="anonymous"></script>
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <!-- Responsive -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +18,7 @@
         <div class="body-bg"></div>
         <div class="page-wrapper">
             <!-- Scroll to the Top -->
-            <div class="scroll-to-top scroll-to-target" data-target="html" style="display: block;"><span class="fas fa-arrow-up"></span></div>
+            <div class="scroll-to-top scroll-to-target" data-target="html" style="display: block;"><i class="fa-regular fa-arrow-up"></i></div>
             <!-- Preloader -->
             <div class="preloader" style="display: none;"><div class="icon"></div></div>
         
@@ -81,8 +82,8 @@
                                 <div class="left-lower">
                                     <nav class="main-nav">
                                         <ul class="navigation scroll-nav">
-                                            <li class="home"><a href="#home-section">Home</a></li>
-                                            <li class="resume current"><a href="#resume-section">Resume</a></li>
+                                            <li class="home current"><a href="#home-section">Home</a></li>
+                                            <li class="resume "><a href="#resume-section">Resume</a></li>
                                             <li class="work"><a href="#work-section">Work</a></li>
                                             <li class="stories"><a href="#stories-section">Stories</a></li>
                                             <li class="contact"><a href="#contact-section">Contact</a></li>
@@ -225,8 +226,16 @@
                                                     <div class="language-block col-lg-6 col-md-6 col-sm-12">
                                                         <div class="inner-box">
                                                             <div class="graph-outer">
-                                                                <div style="display:inline;width:200px;height:200px;"><canvas width="400" height="400" style="width: 200px; height: 200px;"></canvas><input type="text" class="dial" data-fgcolor="#fd7030" data-bgcolor="#f5f5f5" data-width="200" data-height="200" data-linecap="normal" value="99" readonly="readonly" style="display: none; width: 0px; visibility: hidden;"></div>
-                                                                <div class="inner-text count-box counted"><span class="count-text" data-stop="99" data-speed="2000">99</span>%</div>
+                                                                <svg viewBox="0 0 36 36" class="circular-chart">
+                                                                    <path class="circle"
+                                                                      stroke-dasharray="95, 100"
+                                                                      d="M18 2.0845
+                                                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                                                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                                                                    />
+                                                                  </svg>
+                                                                <div class="inner-text count-box counted">
+                                                                    <span class="count-text" data-stop="95" data-speed="2000">99</span>%</div>
                                                             </div>
                                                             <div class="text">English <br>Experience</div>
                                                         </div>
@@ -245,78 +254,7 @@
                                             </div>
                                         </div><!--End About Me-->
         
-                                        <!--Testimonials-->
-                                        <div class="testimonials">
-                                            <div class="carousel-box wow fadeIn" data-wow-duration="1500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeIn;">
-                                                <div class="testi-carousel owl-theme owl-carousel owl-loaded owl-drag">
-                                                    <!--Slide-->
-                                                    
-        
-                                                    <!--Slide-->
-                                                    
-        
-                                                    <!--Slide-->
-                                                    
-        
-                                                <div class="owl-stage-outer owl-height" style="height: 263px;"><div class="owl-stage" style="transform: translate3d(-2520px, 0px, 0px); transition: all 0.7s ease 0s; width: 4410px;"><div class="owl-item cloned" style="width: 600px; margin-right: 30px;"><div class="slide-item">
-                                                        <div class="content-box">
-                                                            <div class="image-box">
-                                                                <div class="image"><img src="images/resource/image-2.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="text">“ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”</div>
-                                                            <div class="info">Dave Smith - CEO @ vcard inc</div>
-                                                        </div>
-                                                    </div></div><div class="owl-item cloned" style="width: 600px; margin-right: 30px;"><div class="slide-item">
-                                                        <div class="content-box">
-                                                            <div class="image-box">
-                                                                <div class="image"><img src="images/resource/image-2.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="text">“ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”</div>
-                                                            <div class="info">Dave Smith - CEO @ vcard inc</div>
-                                                        </div>
-                                                    </div></div><div class="owl-item" style="width: 600px; margin-right: 30px;"><div class="slide-item">
-                                                        <div class="content-box">
-                                                            <div class="image-box">
-                                                                <div class="image"><img src="images/resource/image-2.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="text">“ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”</div>
-                                                            <div class="info">Dave Smith - CEO @ vcard inc</div>
-                                                        </div>
-                                                    </div></div><div class="owl-item" style="width: 600px; margin-right: 30px;"><div class="slide-item">
-                                                        <div class="content-box">
-                                                            <div class="image-box">
-                                                                <div class="image"><img src="images/resource/image-2.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="text">“ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”</div>
-                                                            <div class="info">Dave Smith - CEO @ vcard inc</div>
-                                                        </div>
-                                                    </div></div><div class="owl-item active" style="width: 600px; margin-right: 30px;"><div class="slide-item">
-                                                        <div class="content-box">
-                                                            <div class="image-box">
-                                                                <div class="image"><img src="images/resource/image-2.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="text">“ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”</div>
-                                                            <div class="info">Dave Smith - CEO @ vcard inc</div>
-                                                        </div>
-                                                    </div></div><div class="owl-item cloned" style="width: 600px; margin-right: 30px;"><div class="slide-item">
-                                                        <div class="content-box">
-                                                            <div class="image-box">
-                                                                <div class="image"><img src="images/resource/image-2.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="text">“ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”</div>
-                                                            <div class="info">Dave Smith - CEO @ vcard inc</div>
-                                                        </div>
-                                                    </div></div><div class="owl-item cloned" style="width: 600px; margin-right: 30px;"><div class="slide-item">
-                                                        <div class="content-box">
-                                                            <div class="image-box">
-                                                                <div class="image"><img src="images/resource/image-2.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="text">“ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”</div>
-                                                            <div class="info">Dave Smith - CEO @ vcard inc</div>
-                                                        </div>
-                                                    </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="prev-btn sl-icon-arrow-left"></span></button><button type="button" role="presentation" class="owl-next"><span class="next-btn sl-icon-arrow-right"></span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
-                                            </div> 
-                                        </div>
+                                        
                                     </div>
                                     
                                     <!--Resume Section-->
@@ -326,7 +264,7 @@
                                         <!--Award-->
                                         <div class="awards">
                                             <div class="main-title">
-                                                <span class="icon"><img src="images/resource/icons/award-1.png" alt=""></span>
+                                                <span class="icon"><img src="./images/award-1.png" alt=""></span>
                                                 <span class="txt">Awards</span>
                                             </div>
                                             <div class="row clearfix">
@@ -417,7 +355,7 @@
                                         <!--Education-->
                                         <div class="education">
                                             <div class="main-title">
-                                                <span class="icon"><img src="images/resource/icons/education-1.png" alt=""></span>
+                                                <span class="icon"><img src="./images//education-1.png" alt=""></span>
                                                 <span class="txt">Education</span>
                                             </div>
                                             <div class="row clearfix">
@@ -480,29 +418,29 @@
                                                 <!--Block-->
                                                 <div class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                     <div class="inner-box">
-                                                        <div class="icon-box"><span class="icon def-icon"><img src="images/resource/icons/orange/camera-1.png" alt=""></span><span class="icon hvr-icon"><img src="images/resource/icons/white/camera-1.png" alt=""></span></div>
-                                                        <h5>Photography</h5>
+                                                        <div class="icon-box"><span class="icon def-icon"><img src="./images/cycle-1.png" alt=""></span><span class="icon hvr-icon"><img src="images/resource/icons/white/camera-1.png" alt=""></span></div>
+                                                        <h5>Coding</h5>
                                                     </div>
                                                 </div>
                                                 <!--Block-->
                                                 <div class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                     <div class="inner-box">
-                                                        <div class="icon-box"><span class="icon def-icon"><img src="images/resource/icons/orange/cycle-1.png" alt=""></span><span class="icon hvr-icon"><img src="images/resource/icons/white/cycle-1.png" alt=""></span></div>
-                                                        <h5>Cycling</h5>
+                                                        <div class="icon-box"><span class="icon def-icon"><img src="./images/horseback-2.png" alt=""></span><span class="icon hvr-icon"><img src="./images/horseback-1.png" alt=""></span></div>
+                                                        <h5>Horse riding</h5>
                                                     </div>
                                                 </div>
                                                 <!--Block-->
                                                 <div class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                     <div class="inner-box">
                                                         <div class="icon-box"><span class="icon def-icon"><img src="images/resource/icons/orange/hiking-1.png" alt=""></span><span class="icon hvr-icon"><img src="images/resource/icons/white/hiking-1.png" alt=""></span></div>
-                                                        <h5>Hiking</h5>
+                                                        <h5>Cooking</h5>
                                                     </div>
                                                 </div>
                                                 <!--Block-->
                                                 <div class="interest-block col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                     <div class="inner-box">
                                                         <div class="icon-box"><span class="icon def-icon"><img src="images/resource/icons/orange/gaming-1.png" alt=""></span><span class="icon hvr-icon"><img src="images/resource/icons/white/gaming-1.png" alt=""></span></div>
-                                                        <h5>Gaming</h5>
+                                                        <h5>Theater</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -511,7 +449,7 @@
                                         <!--Experience-->
                                         <div class="education experience">
                                             <div class="main-title">
-                                                <span class="icon"><img src="images/resource/icons/experience-1.png" alt=""></span>
+                                                <span class="icon"><img src="./images/experience-1.png" alt=""></span>
                                                 <span class="txt">Experience</span>
                                             </div>
                                             <div class="row clearfix">
@@ -568,10 +506,10 @@
                                                     <!--Portfolio block-->
                                                     <div class="portfolio-block mix all websites col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                         <div class="inner-box">
-                                                          <div class="image"><img src="images/resource/work-1.jpg" alt=""></div>
+                                                          <div class="image"><img src="./images/work-1.jpg" alt=""></div>
                                                           <div class="hover-box">
                                                             <div class="hvr-upper clearfix">
-                                                                <a href="images/resource/work-1.jpg" class="lightbox-image theme-btn" data-fancybox="gallery"><span class="fa fa-search"></span></a>
+                                                                <a href="./images/work-1.jpg" class="lightbox-image theme-btn" data-fancybox="gallery"><span class="fa fa-search"></span></a>
                                                                 <a href="work-single.html" class="theme-btn view-btn"><span class="far fa-file"></span></a>
                                                             </div>
                                                             <div class="hvr-lower">
@@ -602,10 +540,10 @@
                                                     <!--Portfolio block-->
                                                     <div class="portfolio-block mix all print col-xl-4 col-lg-6 col-md-6 col-sm-12" style="display: inline-block;">
                                                         <div class="inner-box">
-                                                          <div class="image"><img src="images/resource/work-3.jpg" alt=""></div>
+                                                          <div class="image"><img src="./images/work-1.jpg" alt=""></div>
                                                           <div class="hover-box">
                                                             <div class="hvr-upper clearfix">
-                                                                <a href="images/resource/work-3.jpg" class="lightbox-image theme-btn" data-fancybox="gallery"><span class="fa fa-search"></span></a>
+                                                                <a href="./images/work-1.jpg" class="lightbox-image theme-btn" data-fancybox="gallery"><span class="fa fa-search"></span></a>
                                                                 <a href="work-single.html" class="theme-btn view-btn"><span class="far fa-file"></span></a>
                                                             </div>
                                                             <div class="hvr-lower">
@@ -736,7 +674,7 @@
                                                     <!--News block-->
                                                     <div class="news-block">
                                                         <div class="inner-box">
-                                                          <div class="image"><img src="images/resource/blog-image-1.jpg" alt=""></div>
+                                                          <div class="image"><img src="./images/blog-image-1.jpg" alt=""></div>
                                                           <div class="over-box">
                                                             <div class="hvr-lower">
                                                                 <div class="title"><a href="story-single.html">Scotland's jungle islands are dealing with a major Covid hangover</a></div>
@@ -816,7 +754,7 @@
                                                     <!--News block-->
                                                     <div class="news-block">
                                                         <div class="inner-box">
-                                                          <div class="image"><img src="images/resource/blog-image-2.jpg" alt=""></div>
+                                                          <div class="image"><img src="./images/blog-image-1.jpg" alt=""></div>
                                                           <div class="over-box">
                                                             <div class="hvr-lower">
                                                                 <div class="title"><a href="story-single.html">Kaepernick's Nike jersey sells out quickly</a></div>
@@ -928,6 +866,18 @@
     </body>
     <script src="./script.js"></script>
     <script src="./pointer.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/pagenav.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/knob.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/custom-script.js"></script>
     <script>
         init_pointer({
             
